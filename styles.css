@@ -1,75 +1,79 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
+/* Header Styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header .logo img {
-    height: 80px;
-    width: auto;
-    margin-right: 15px;
+  height: 60px; /* Adjust height */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 15px;
 }
 
 header .logo h1 {
-    margin: 0;
-    font-size: 24px;
+  margin: 0;
+  font-size: 24px;
 }
 
+/* Navigation Menu */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-left: auto;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 nav ul li {
-    margin-right: 15px;
+  margin-left: 15px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* Section Styling */
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
+/* Footer Styling */
 footer {
-    text-align: center;
-    padding: 10px 20px;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
